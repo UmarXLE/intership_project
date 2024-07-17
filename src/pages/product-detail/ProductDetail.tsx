@@ -13,9 +13,11 @@ const ProductDetail = () => {
         }
         fetchData();
     },[])
+
+    
     return (
         <main className={styled.container}>
-            1
+            123
         </main>
     );
 };
