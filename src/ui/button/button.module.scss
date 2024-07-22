@@ -1,0 +1,28 @@
+.blue_button {
+    background-color: var(--blue) !important;
+    color: var(--white) !important;
+    padding: 7px 20px;
+    border-radius: 16px !important;
+    text-transform: none !important;
+    border:3px solid var(--blue) !important;
+    font-size: 16px !important;
+
+    &:hover {
+        background-color: var(--second-blue) !important;
+        color: var(--blue) !important;
+    }
+}
+
+.second_blue_button {
+    background-color: var(--second-blue) !important;
+    color: var(--blue) !important;
+    padding: 7px 20px;
+    border-radius: 16px !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+
+    &:hover {
+        background-color: var(--blue);
+        color: var(--white);
+    }
+}

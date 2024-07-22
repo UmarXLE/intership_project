@@ -1,0 +1,90 @@
+.container {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+
+    &_info {
+
+        & h2 {
+            color:var(--title-black);
+            line-height: 28.13px;
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        &_nameMarket {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 5px;
+
+            & p {
+                color:var(--title-black);
+                font-size: 18px;
+                line-height: 21.09px;
+            }
+        }
+
+        &_brand {
+            color:var(--second-text);
+            font-size: 16px;
+            line-height: 18.75px;
+            margin-bottom: 10px;
+        }
+
+        &_rating {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+
+            & p {
+                color:var(--title-black);
+                line-height: 21.09px;
+                font-size: 18px;
+            }
+
+            & span {
+                color:var(--second-text);
+                font-size: 18px;
+                line-height: 18.75px;
+                text-decoration: underline;
+                font-weight: 300;
+            }
+
+            &_line {
+                display: flex;
+                align-items: end;
+                gap: 5px;
+            }
+        }
+
+        &_description {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            & h3 {
+                color: var(--title-black);
+                line-height: 21.09px;
+                font-weight: 500;
+                font-size: 18px;
+            }
+
+            & p {
+                color:var(--descr-text);
+                font-size: 16px;
+                line-height: 22.4px;
+            }
+
+            & a {
+                color:var(--title-black);
+                font-size: 18px;
+                line-height: 21.09px;
+                text-decoration: underline;
+            }
+        }
+    }
+}
