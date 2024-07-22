@@ -1,0 +1,18 @@
+.container {
+    margin: 50px 0;
+    
+    &_title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28.13px;
+        color: var(--title-black);
+        margin-bottom: 20px;
+    }
+
+    &_products {
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+}

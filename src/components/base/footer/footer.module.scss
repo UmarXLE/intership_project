@@ -1,0 +1,31 @@
+.container {
+    background-color: var(--second-bg);
+
+    &_wrapper {
+        max-width: 1200px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+    }
+
+    &_item {
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+
+        &_icons {
+            display: flex;
+            gap:8px;
+        }
+
+        & h3 {
+            font-weight: 600;
+            font-size: 20px;
+            color: var(--text-color);
+            line-height: 23.44px;
+            margin-bottom: 5px;
+        }
+    }
+}
